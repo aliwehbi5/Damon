@@ -67,7 +67,7 @@ header .container .logo {
 }
 
 header .container .logo a {
-  color: var(--main-color);
+  color: red;
 }
 
 header .container ul {
