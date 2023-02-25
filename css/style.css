@@ -826,6 +826,10 @@ section h2.button:hover {
   -webkit-filter: grayscale(1);
 }
 
+#members .container .team:hover .text h3 {
+    color: #777777;
+}
+
 #members .container .team::before {
   content: "";
   position: absolute;
