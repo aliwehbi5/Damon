@@ -63,8 +63,11 @@ header .container {
 header .container .logo {
   font-size: 25px;
   font-weight: bold;
-  color: var(--main-color);
   padding: 20px 0;
+}
+
+header .container .logo a {
+  color: var(--main-color);
 }
 
 header .container ul {
@@ -87,7 +90,7 @@ header .container ul li a {
   position: relative;
 }
 
-header .container a:not(.logo)::before {
+header .container a::before {
   content: "";
   position: absolute;
   height: 3px;
