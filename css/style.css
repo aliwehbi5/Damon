@@ -66,8 +66,8 @@ header .container .logo {
   padding: 20px 0;
 }
 
-header .container .logo a {
-  color: red;
+header .container .logo > a {
+  color: var(--main-color);
 }
 
 header .container ul {
